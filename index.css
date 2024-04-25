@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: rgb(0, 102, 204);
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 204);
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 0.6em;
+    background-color: rgb(204, 204, 255);
+    color: rgb(51, 51, 51);
+    padding: 20px;
+    text-align: center; /* Center align content */
+}
+
+p{
+    margin-left: auto; /* Center align paragraphs */
+    margin-right: auto; /* Center align paragraphs */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify; /* Justify paragraphs */
+}
+
+h2{
+    margin-left: auto; /* Center align headings */
+    margin-right: auto; /* Center align headings */
+    color: rgb(153, 0, 51);
+    font-family: "Times New Roman", serif;
+    text-align: justify; /* Justify headings */
+}
+
+ul{
+    text-align: left; /* Adjust unordered list alignment */
+}
+
+ul li{
+    margin-left: 10%;
+    list-style-type: square;
+}
+
+button{
+    margin-left: auto; /* Center align button */
+    margin-right: auto; /* Center align button */
+    background-color: rgb(255, 153, 51);
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    border-radius: 0.6em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+footer p{
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(204, 102, 0);
+}
